@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: #c39bd3;
+      
+}
+.image-head{
+    text-align: center;
+    padding-top: 20px;
+
+}
+.image__heading{
+    margin-top: 50px;
+}
+.image__line {
+    display: block; /* Change from inline-block to block */
+    width: 50%;
+    height: 10px;
+    background-color: #c4ffc2;
+    margin: 20px auto; /* This centers the line horizontally */
+    border-radius: 10px;
+}
+
+
+.image__container {
+    display: flex;
+    flex-wrap: wrap;  /* Allow wrapping to the next row */
+    justify-content: center; /* Center images horizontally */
+    gap: 20px; /* Space between images */
+    padding: 50px;
+}
+
+.image-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(25% - 20px); /* Each image takes 25% of the width with spacing */
+}
+
+.image-card img {
+    width: 200px;
+    height: 250px;
+    border: solid black 3px;
+}
